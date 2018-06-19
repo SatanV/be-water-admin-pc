@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dia.app.module.wallpaper.dao.WallpaperDao">
+
+    <resultMap id="wallpaperResultMap" type="com.dia.common.dto.wallpaper.WallpaperRespDto">
+        <id property="id" column="id"/>
+        <result property="name" column="name"/>
+        <result property="thumbUrl" column="thumb_url"/>
+        <result property="imageUrl" column="image_url"/>
+        <result property="favorites" column="favorites"/>
+        <result property="star" column="star"/>
+        <result property="description" column="description"/>
+        <result property="type" column="type"/>
+        <result property="uploader" column="uploader"/>
+        <result property="views" column="views"/>
+        <result property="size" column="size"/>
+        <result property="category" column="category"/>
+        <result property="gmtUploadTime" column="gmt_UploadTime"/>
+        <result property="gmtGetTime" column="gmt_getTime"/>
+        <result property="resolution" column="resolution"/>
+    </resultMap>
+
+    <select id="count" resultType="java.lang.Integer">
+        select count(0) from wallpaper
+        <include refid="queryParam"/>
+    </select>
+
+    <select id="query" resultMap="wallpaperResultMap">
+        select <include refid="selectColumn"/> from wallpaper
+            <include refid="queryParam"/>
+    </select>
+
+    <sql id="selectColumn">
+        id,name,thumb_url,image_url,favorites,star,description,type,uploader,views,size,category,gmt_UploadTime,gmt_getTime,resolution
+    </sql>
+
+    <sql id="queryParam">
+        <where>
+            <if test="null != type and '' != type">
+                AND TYPE = #{type}
+            </if>
+        </where>
+    </sql>
+
+</mapper>
