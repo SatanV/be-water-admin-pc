@@ -28,6 +28,8 @@
     <select id="query" resultMap="wallpaperResultMap">
         select <include refid="selectColumn"/> from wallpaper
             <include refid="queryParam"/>
+            order by VIEWS DESC , FAVORITES DESC
+            limit #{mySqlStart},#{mySqlEnd}
     </select>
 
     <sql id="selectColumn">
