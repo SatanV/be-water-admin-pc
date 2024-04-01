@@ -1,987 +1,426 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e1f9b42-a2c3-4e1c-aa78-3b3956c8edb3" name="Default" comment="">
+    <list default="true" id="b164ddee-e5a6-44d5-8166-d9cecbe51855" name="更改" comment="初始化PC端管理平台界面代码">
+      <change afterPath="$PROJECT_DIR$/.env.development" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env.production" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc.cjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.npmrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierrc.cjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/auth.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/message/sms.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/monitor/cache.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/monitor/server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/monitor/user.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/quartz/schedule.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/sys/attachment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/sys/dict.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/sys/log.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/sys/menu.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/sys/orgs.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/sys/params.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/sys/post.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/sys/role.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/sys/third.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/sys/user.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/fast-radio-group/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/fast-radio-group/src/fast-radio-group.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/fast-select/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/fast-select/src/fast-select.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/fast-table-column/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/fast-table-column/src/fast-table-column.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/fast-user/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/fast-user/src/fast-user.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/lang/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/md-editor/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/svg-icon/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/svg-icon/src/svg-icon.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/wang-editor/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/i18n/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/i18n/lang/en-US.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/i18n/lang/profile/en-US.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/i18n/lang/profile/zh-CN.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/i18n/lang/zh-CN.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/iconfont/iconfont.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icons/svg/404.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/components/Logo/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/components/Main/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/components/Menu/MenuItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/components/Navbar/NavbarLeft.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/components/Navbar/NavbarRight.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/components/Navbar/components/Breadcrumb.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/components/Navbar/components/ComponentSize.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/components/Navbar/components/Fullscreen.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/components/Navbar/components/Hamburger.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/components/Navbar/components/Refresh.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/components/Navbar/components/Search.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/components/Navbar/components/ThemeSettings.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/components/Navbar/components/User.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/components/Router/Iframe.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/components/Router/Redirect.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/components/Settings/components/SelectItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/components/Settings/components/SwitchItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/components/Settings/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/components/Tabs/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/components/Theme/Columns.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/components/Theme/Transverse.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/components/Theme/Vertical.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/router/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/modules/app.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/modules/router.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/modules/tabs.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/modules/user.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/theme/config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/theme/interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/dark.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/element.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/layout.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/shims.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/cache/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/cache/key.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/constant.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/directive/auth.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/directive/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/emits.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/request.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/smCrypto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/storage.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/tabs.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/theme.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/tool.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/validate.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/404.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/dashboard/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/dashboard/workbench.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/demo/cropper/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/demo/echarts/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/demo/formDesign/form.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/demo/formDesign/generate.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/demo/icons/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/demo/markdown/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/demo/printJs/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/demo/qrcode/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/demo/wangeditor/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/login/account.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/login/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/login/mobile.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/login/third.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/message/sms/log/detail.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/message/sms/log/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/message/sms/platform/add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/message/sms/platform/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/message/sms/platform/send.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/monitor/cache/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/monitor/server/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/monitor/user/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/profile/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/profile/password.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/profile/third-login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/profile/user-info.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/quartz/log/detail.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/quartz/log/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/quartz/schedule/add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/quartz/schedule/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/sys/attachment/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/sys/dict/data-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/sys/dict/data-sql.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/sys/dict/data.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/sys/dict/type-add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/sys/dict/type.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/sys/log/login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/sys/log/operate-detail.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/sys/log/operate.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/sys/menu/add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/sys/menu/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/sys/org/add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/sys/org/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/sys/params/add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/sys/params/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/sys/post/add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/sys/post/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/sys/role/add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/sys/role/data-scope.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/sys/role/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/sys/role/user.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/sys/third/config/add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/sys/third/config/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/sys/user/add-or-update.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/sys/user/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/sys/user/org-tree.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.project" beforeDir="false" afterPath="$PROJECT_DIR$/app/.project" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dia/app/module/wallpaper/dao/mapper/wallpaperMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dia/app/module/wallpaper/dao/mapper/wallpaperMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/resources/application-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/classes/application-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/target/classes/com/dia/app/module/wallpaper/dao/mapper/wallpaperMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/classes/com/dia/app/module/wallpaper/dao/mapper/wallpaperMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/.project" beforeDir="false" afterPath="$PROJECT_DIR$/common/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dia/app/AppApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dia/app/Bootstrap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dia/app/common/exception/ExceptionInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dia/app/common/exception/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dia/app/common/filter/CustomHttpRequestWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dia/app/common/filter/CustomSignFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dia/app/common/filter/FilterConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dia/app/common/filter/LoggingFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dia/app/common/interceptor/CORSInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dia/app/common/interceptor/ErrorPageInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dia/app/common/interceptor/TokenInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dia/app/common/log/RequestWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dia/app/common/log/ResponseWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dia/app/common/log/TeePrintWriter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dia/app/common/mvcadapter/CustomWebMvcConfigurerAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dia/app/common/net/BaseRequestService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dia/app/common/util/AliYunOSSRunnable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dia/app/common/util/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dia/app/common/util/FileMD5Util.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dia/app/common/util/PluploadUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dia/app/common/util/RegularUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dia/app/common/util/ResponseRender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dia/app/common/util/TokenManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dia/app/module/admin/controller/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dia/app/module/wallpaper/controller/WallpaperController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dia/app/module/wallpaper/dao/WallpaperDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dia/app/module/wallpaper/dao/mapper/wallpaperMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dia/app/module/wallpaper/model/Wallpaper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dia/app/module/wallpaper/service/WallpaperService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dia/app/support/cache/CacheManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dia/app/support/config/Properties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dia/app/support/config/ValidatorConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dia/app/support/net/HttpConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dia/app/support/net/OkHttpManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dia/app/support/oss/AliyunOssManger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dia/app/support/redis/RedisClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dia/app/support/redis/RedisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dia/app/support/stat/StatLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dia/app/support/stat/StatLogBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dia/app/support/stat/StatLogConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dia/app/support/swagger/Swagger2Configuration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dia/app/support/task/CommonThreadPool.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dia/app/support/util/GzipUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dia/app/support/util/ParamMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/resources/application-dev.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/resources/application-prod.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/resources/application-test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/resources/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/resources/logback-spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/META-INF/maven/com.dia/app/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/META-INF/maven/com.dia/app/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/application-dev.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/application-prod.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/application-test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/com/dia/app/AppApplication$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/com/dia/app/AppApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/com/dia/app/Bootstrap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/com/dia/app/common/exception/ExceptionInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/com/dia/app/common/exception/GlobalExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/com/dia/app/common/filter/CustomHttpRequestWrapper$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/com/dia/app/common/filter/CustomHttpRequestWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/com/dia/app/common/filter/CustomSignFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/com/dia/app/common/filter/FilterConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/com/dia/app/common/filter/LoggingFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/com/dia/app/common/interceptor/CORSInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/com/dia/app/common/interceptor/ErrorPageInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/com/dia/app/common/interceptor/TokenInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/com/dia/app/common/log/RequestWrapper$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/com/dia/app/common/log/RequestWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/com/dia/app/common/log/ResponseWrapper$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/com/dia/app/common/log/ResponseWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/com/dia/app/common/log/TeePrintWriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/com/dia/app/common/mvcadapter/CustomWebMvcConfigurerAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/com/dia/app/common/net/BaseRequestService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/com/dia/app/common/util/AliYunOSSRunnable$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/com/dia/app/common/util/AliYunOSSRunnable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/com/dia/app/common/util/Constants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/com/dia/app/common/util/FileMD5Util$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/com/dia/app/common/util/FileMD5Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/com/dia/app/common/util/PluploadUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/com/dia/app/common/util/RegularUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/com/dia/app/common/util/ResponseRender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/com/dia/app/common/util/TokenManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/com/dia/app/module/admin/controller/TestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/com/dia/app/module/wallpaper/controller/WallpaperController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/com/dia/app/module/wallpaper/dao/WallpaperDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/com/dia/app/module/wallpaper/dao/mapper/wallpaperMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/com/dia/app/module/wallpaper/model/Wallpaper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/com/dia/app/module/wallpaper/service/WallpaperService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/com/dia/app/support/cache/CacheManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/com/dia/app/support/config/Properties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/com/dia/app/support/config/ValidatorConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/com/dia/app/support/net/HttpConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/com/dia/app/support/net/OkHttpManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/com/dia/app/support/oss/AliyunOssManger$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/com/dia/app/support/oss/AliyunOssManger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/com/dia/app/support/redis/RedisClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/com/dia/app/support/redis/RedisConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/com/dia/app/support/stat/StatLog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/com/dia/app/support/stat/StatLogBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/com/dia/app/support/stat/StatLogConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/com/dia/app/support/swagger/Swagger2Configuration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/com/dia/app/support/task/CommonThreadPool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/com/dia/app/support/util/GzipUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/com/dia/app/support/util/ParamMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/classes/logback-spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/dia/common/constants/CommonReqParamConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/dia/common/constants/ErrorMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/dia/common/constants/FileConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/dia/common/constants/HttpMethodConstant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/dia/common/constants/PlatformConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/dia/common/constants/ResponseCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/dia/common/constants/SettingConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/dia/common/dto/base/BasePageReqDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/dia/common/dto/base/BasePageRespDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/dia/common/dto/base/BaseReqDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/dia/common/dto/base/BaseRespDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/dia/common/dto/base/CommonReqDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/dia/common/dto/wallpaper/WallpaperReqDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/dia/common/dto/wallpaper/WallpaperRespDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/dia/common/route/WallpaperUrl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/dia/common/util/BaseRespDtoWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/dia/common/util/CodeUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/dia/common/util/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/dia/common/util/DateUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/dia/common/util/EncryptUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/dia/common/util/JsonUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/dia/common/util/MD5Util.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/dia/common/util/MREncryptUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/dia/common/util/PageUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/dia/common/util/PlatformUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/dia/common/util/RSAUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/dia/common/util/StringUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/dia/common/util/UdpGetClientMacAddr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/META-INF/maven/com.dia/common/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/META-INF/maven/com.dia/common/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/dia/common/constants/CommonReqParamConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/dia/common/constants/ErrorMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/dia/common/constants/FileConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/dia/common/constants/HttpMethodConstant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/dia/common/constants/PlatformConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/dia/common/constants/ResponseCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/dia/common/constants/SettingConstants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/dia/common/dto/base/BasePageReqDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/dia/common/dto/base/BasePageRespDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/dia/common/dto/base/BaseReqDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/dia/common/dto/base/BaseRespDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/dia/common/dto/base/CommonReqDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/dia/common/dto/wallpaper/WallpaperReqDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/dia/common/dto/wallpaper/WallpaperRespDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/dia/common/route/WallpaperUrl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/dia/common/util/BaseRespDtoWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/dia/common/util/CodeUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/dia/common/util/Constants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/dia/common/util/DateUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/dia/common/util/EncryptUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/dia/common/util/JsonUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/dia/common/util/MD5Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/dia/common/util/MREncryptUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/dia/common/util/PageUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/dia/common/util/PlatformUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/dia/common/util/RSAUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/dia/common/util/StringUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/dia/common/util/UdpGetClientMacAddr$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/target/classes/com/dia/common/util/UdpGetClientMacAddr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dia-wallpaper.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/dia-common/target/" />
-    <ignored path="$PROJECT_DIR$/dia-app/target/" />
-    <ignored path="$PROJECT_DIR$/app/target/" />
-    <ignored path="$PROJECT_DIR$/common/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CodeInsightWorkspaceSettings">
-    <option name="optimizeImportsOnTheFly" value="true" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AppApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dia/app/AppApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="46" column="10" lean-forward="true" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
-              <folding>
-                <element signature="e#1734#1735#0" expanded="true" />
-                <element signature="e#1764#1765#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application-dev.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/resources/application-dev.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WallpaperController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dia/app/module/wallpaper/controller/WallpaperController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WallpaperReqDto.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/dia/common/dto/wallpaper/WallpaperReqDto.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BasePageReqDto.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/dia/common/dto/base/BasePageReqDto.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="46" column="28" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseReqDto.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/dia/common/dto/base/BaseReqDto.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseRespDto.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/dia/common/dto/base/BaseRespDto.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WallpaperService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dia/app/module/wallpaper/service/WallpaperService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wallpaperMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dia/app/module/wallpaper/dao/mapper/wallpaperMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="FxmlFile" />
-        <option value="Tag Library Descriptor" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>hibernate-validator.version</find>
-      <find>common.version</find>
-      <find>RequestWrapper</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-    </replaceStrings>
-    <dirStrings>
-      <dir>F:\WorkSpace\Java\Web\regent\other\dia-wallpaper\common\src\main\java\com\dia\common\dto\basicdata\req</dir>
-    </dirStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/common/src/main/java/com/dia/common/constants/SettingConstants.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/dia/common/constants/ErrorMessage.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/dia/common/dto/base/BaseSheetDetailDto.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/dia/common/util/PageUtil.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/dia/common/util/AndroidBase64Utils.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/dia/common/util/DateUtil.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/dia/common/util/JsonUtil.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/dia/app/common/net/BaseRequestService.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/dia/common/dto/base/CommonReqDto.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/dia/common/dto/base/BaseRespDto.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/dia/common/dto/base/BaseReqDto.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/dia/common/dto/base/BasePageReqDto.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/dia/common/dto/base/BasePageRespDto.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/dia/common/util/RSAUtil.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/dia/common/util/PlatformUtil.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/dia/common/util/BaseRespDtoWrapper.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/dia/common/constants/ResponseCode.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/dia/app/common/exception/GlobalExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/dia/app/common/util/AliYunOSSRunnable.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/dia/app/common/interceptor/TokenInterceptor.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/dia/app/support/config/Properties.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/dia/app/support/net/OkHttpManager.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/dia/app/support/oss/AliyunOssManger.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/dia/app/common/util/AdminTokenManager.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/dia/app/common/util/CompanyCacheManager.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/dia/app/common/util/EnterpriseTokenManager.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/dia/app/common/filter/CustomHttpRequestWrapper.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/dia/app/common/filter/CustomSignFilter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/dia/app/common/filter/FilterConfig.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/dia/app/common/filter/LoggingFilter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/dia/app/common/interceptor/ErrorPageInterceptor.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/dia/app/common/log/RequestWrapper.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/dia/app/common/log/ResponseWrapper.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/dia/app/common/log/TeePrintWriter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/dia/app/common/mvcadapter/CustomWebMvcConfigurerAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/dia/app/common/util/TokenManager.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/dia/app/common/util/ResponseRender.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/dia/app/support/cache/CacheManager.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/dia/app/support/swagger/Swagger2Configuration.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/dia/app/module/admin/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/dia/app/module/wallpaper/model/Wallpaper.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/dia/app/module/wallpaper/dao/WllpaperDao.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/dia/app/module/wallpaper/dao/mapper/WallpaperMapper.fxml" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/dia/common/route/WallpaperUrl.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/dia/common/dto/wallpaper/WallpaperReqDto.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/com/dia/common/dto/wallpaper/WallpaperRespDto.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/dia/app/module/wallpaper/service/WallpaperService.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/dia/app/module/wallpaper/controller/WallpaperController.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/dia/app/module/wallpaper/dao/WallpaperDao.java" />
-        <option value="$PROJECT_DIR$/app/src/main/resources/application-dev.properties" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/dia/app/module/wallpaper/dao/mapper/wallpaperMapper.xml" />
-      </list>
-    </option>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2eUhLfpvj7kPruQP1OD5NvYh6we" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="dia-wallpaper" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-18" />
-    <option name="y" value="18" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="AndroidView" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="dia-wallpaper" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dia-wallpaper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dia-wallpaper" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dia-wallpaper" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dia-wallpaper" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dia-wallpaper" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dia-wallpaper" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dia-wallpaper" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dia-wallpaper" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dia-wallpaper" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dia-wallpaper" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dia-wallpaper" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dia-wallpaper" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dia-wallpaper" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="module" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dia-wallpaper" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dia-wallpaper" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="module" type="462c0819:PsiDirectoryNode" />
-              <item name="wallpaper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dia-wallpaper" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dia-wallpaper" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="module" type="462c0819:PsiDirectoryNode" />
-              <item name="wallpaper" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dia-wallpaper" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dia-wallpaper" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="module" type="462c0819:PsiDirectoryNode" />
-              <item name="wallpaper" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dia-wallpaper" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dia-wallpaper" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="module" type="462c0819:PsiDirectoryNode" />
-              <item name="wallpaper" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dia-wallpaper" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dia-wallpaper" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-    </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Problems" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.312" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\WorkSpace\Java\Web\regent\other\dia-wallpaper\app\src\main\java\com\dia\app\module\wallpaper\dao\mapper" />
-      <recent name="F:\WorkSpace\Java\Web\regent\other\dia-wallpaper\app\src\main\java\com\dia\app\support" />
-      <recent name="F:\WorkSpace\Java\Web\regent\other\dia-wallpaper\app\src\main\java\com\dia\app\common\util" />
-      <recent name="F:\WorkSpace\Java\Web\regent\other\dia-wallpaper\common\src\main\java\com\dia\common" />
-      <recent name="F:\WorkSpace\Java\Web\regent\other\dia-wallpaper\app\src\main\java\com\dia\app\common\net" />
-    </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.AppApplication">
-    <configuration name="AppApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dia.app.AppApplication" />
-      <module name="app" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dia.app.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Bootstrap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dia.app.Bootstrap" />
-      <module name="app" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dia.app.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <list>
-      <item itemvalue="Application.Bootstrap" />
-      <item itemvalue="Application.AppApplication" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.AppApplication" />
-        <item itemvalue="Application.Bootstrap" />
-      </list>
-    </recent_temporary>
-  </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/WebProjects",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "wsl://Ubuntu@/usr/bin/node",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.externalResources",
+    "ts.external.directory.path": "D:\\JetBrains\\WebStorm\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="7e1f9b42-a2c3-4e1c-aa78-3b3956c8edb3" name="Default" comment="" />
-      <created>1528973082831</created>
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="b164ddee-e5a6-44d5-8166-d9cecbe51855" name="更改" comment="" />
+      <created>1711965010164</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1528973082831</updated>
-      <workItem from="1528973087294" duration="3209000" />
-      <workItem from="1528976364158" duration="117000" />
-      <workItem from="1528976525191" duration="172000" />
-      <workItem from="1528976800022" duration="5236000" />
-      <workItem from="1529025274572" duration="2597000" />
-      <workItem from="1529029651204" duration="4008000" />
-      <workItem from="1529388442823" duration="7599000" />
-      <workItem from="1530951891498" duration="1905000" />
-      <workItem from="1531382616370" duration="6028000" />
-      <workItem from="1531472109430" duration="5093000" />
-      <workItem from="1531706601460" duration="8060000" />
+      <updated>1711965010164</updated>
+      <workItem from="1711965012065" duration="401000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44024000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info anchor="right" id="Palette" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="1" weight="0.32980332" />
-      <window_info anchor="bottom" id="Database Changes" order="4" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="Designer" order="0" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
-      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
-      <window_info id="UI Designer" order="1" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="13" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.32889733" />
-      <window_info anchor="right" id="Palette&#9;" order="2" />
-      <window_info id="Image Layers" order="6" />
-      <window_info anchor="bottom" id="Java Enterprise" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="9" visible="true" weight="0.36379018" />
-      <window_info anchor="bottom" id="Spring" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.3282572" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.28971255" />
-      <window_info anchor="right" id="Bean Validation" order="5" />
-      <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="8" weight="0.15878378" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dia/app/support/stat/StatLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dia/app/support/stat/StatLogBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dia/app/support/stat/StatLogConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dia/app/support/task/CommonThreadPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dia/app/support/util/GzipUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-680">
-          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dia/app/common/util/AdminTokenManager.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dia/app/common/filter/CustomHttpRequestWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-140">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dia/app/common/filter/CustomSignFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dia/app/common/filter/LoggingFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dia/app/common/interceptor/CORSInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dia/app/common/filter/FilterConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dia/app/common/interceptor/ErrorPageInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dia/app/common/interceptor/TokenInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1460">
-          <caret line="73" column="51" lean-forward="true" selection-start-line="73" selection-start-column="51" selection-end-line="73" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dia/app/common/log/TeePrintWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dia/app/common/log/ResponseWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dia/app/common/log/RequestWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dia/app/common/mvcadapter/CustomWebMvcConfigurerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="20" column="45" lean-forward="true" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dia/app/common/util/EnterpriseTokenManager.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dia/app/common/util/CompanyCacheManager.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dia/app/common/util/RegularUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dia/app/common/util/AliYunOSSRunnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dia/app/common/util/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dia/app/common/util/FileMD5Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dia/app/common/util/PluploadUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dia/app/common/util/ResponseRender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dia/app/common/util/TokenManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dia/app/support/cache/CacheManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dia/app/support/config/Properties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18">
-          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dia/app/support/config/ValidatorConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dia/app/support/net/HttpConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dia/app/support/net/OkHttpManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="65" column="84" selection-start-line="65" selection-start-column="84" selection-end-line="65" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dia/app/support/swagger/Swagger2Configuration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dia/app/common/exception/ExceptionInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dia/app/common/exception/GlobalExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="20" selection-start-line="20" selection-end-line="25" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dia/app/module/admin/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-92">
-          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dia/app/module/wallpaper/dao/mapper/wallpaperMapper.tld" />
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/dia/common/route/WallpaperUrl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/dia/common/util/BaseRespDtoWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="54" column="30" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dia/app/module/wallpaper/model/Wallpaper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
-          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="83" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/dia/common/dto/wallpaper/WallpaperRespDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dia/app/module/wallpaper/dao/WallpaperDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dia/app/module/wallpaper/service/WallpaperService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/dia/common/dto/base/BaseRespDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/dia/common/dto/base/BaseReqDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/dia/common/dto/wallpaper/WallpaperReqDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/dia/common/dto/base/BasePageReqDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="46" column="28" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/resources/application-dev.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dia/app/module/wallpaper/dao/mapper/wallpaperMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dia/app/AppApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="46" column="10" lean-forward="true" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
-          <folding>
-            <element signature="e#1734#1735#0" expanded="true" />
-            <element signature="e#1764#1765#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dia/app/module/wallpaper/controller/WallpaperController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArquillianSettingsConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.312" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>diaapp:war</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Spring</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>common</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.312" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: com.fasterxml.jackson.core:jackson-annotations:2.8.5</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="初始化PC端管理平台界面代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始化PC端管理平台界面代码" />
   </component>
 </project>
